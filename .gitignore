@@ -1,6 +1,7 @@
 .idea/
 dist/
 node_modules/*
+storage/
 index.js
 index.js.map
 style.css
