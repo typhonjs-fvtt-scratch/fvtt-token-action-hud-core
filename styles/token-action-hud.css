@@ -7,7 +7,7 @@
  */
 
  .tagify.tah-dialog-tagify {
-    align-content: start;
+    align-content: flex-start;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid var(--color-border-light-tertiary);
     border-radius: 3px;
@@ -92,7 +92,7 @@
 }
 
 .tah-dialog-tags-dropdown .tagify__dropdown__wrapper {
-    align-content: start;
+    align-content: flex-start;
     background: rgba(0, 0, 0, 0.05);
     border: 1px solid var(--color-border-light-tertiary);
     border-radius: 3px;
@@ -186,14 +186,14 @@
     text-align: left;
 }
 
-.locked-tooltip.tah-tooltip h4, 
+.locked-tooltip.tah-tooltip h4,
 .tah-tooltip h4,
 #tooltip.active:has(.tah-tooltip-wrapper) h4 {
     font-weight: 600;
     text-align: left;
 }
 
-.locked-tooltip.tah-tooltip :is(ul, h3, h4, p), 
+.locked-tooltip.tah-tooltip :is(ul, h3, h4, p),
 .tah-tooltip :is(ul, h3, h4, p),
 #tooltip.active:has(.tah-tooltip-wrapper) :is(ul, h3, h4, p) {
     text-align: left;

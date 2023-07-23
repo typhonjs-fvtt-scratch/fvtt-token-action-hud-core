@@ -4,6 +4,7 @@
     --tah-gap: 3px;
 
     --tah-button-background-color: rgba(0, 0, 0, 0.1);
+    --tah-button-background-image: url("../../../ui/parchment.jpeg") repeat;
     --tah-button-border: 2px groove var(--color-border-light-highlight);
     --tah-button-box-shadow: 0 0 20px var(--color-shadow-dark);
     --tah-button-disabled-text-color: var(--tah-text-secondary-color);
@@ -180,7 +181,7 @@
 }
 
 .tah-group-button {
-    background: url(../../../ui/parchment.jpg) repeat;
+    background: var(--tah-button-background-image);
 }
 
 .tah-action-button {
@@ -191,7 +192,7 @@
 .tah-group-button {
     border-radius: var(--tah-border-radius);
     font-size: var(--font-size-13);
-    min-width: var(--tah-button-min-width); 
+    min-width: var(--tah-button-min-width);
 }
 
 .tah-action-button:active,
@@ -304,7 +305,7 @@
 }
 
 .tah-tab-group > .tah-groups-container > .tah-groups {
-    background: url(../../../ui/parchment.jpg) repeat;
+    background: var(--tah-button-background-image);
     border-radius: var(--tah-border-radius);
     flex-direction: column;
     padding: 10px;
