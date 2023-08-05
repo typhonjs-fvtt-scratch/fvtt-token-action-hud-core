@@ -25,6 +25,7 @@
     "index.js"
   ],
   "styles": [
+    "style.css",
     "./styles/token-action-hud.css",
     "./styles/tah-compact.css",
     "./styles/tah-custom.css",
